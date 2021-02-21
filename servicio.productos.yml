@@ -15,5 +15,6 @@ spring:
     url: jdbc:mysql://localhost:3307/mtproductos?serverTimezone=UTC
     username: root
     password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     generate-ddl: true
